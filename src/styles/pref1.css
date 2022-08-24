@@ -1,0 +1,27 @@
+.pref1main{
+    background-color: #1c3b4e;
+    height: 90vh;
+}
+.pref1main main{
+    position: relative; 
+}
+
+
+
+.path{
+    height: 400px;
+}
+
+.board{
+    position: absolute;
+    height: 500px;
+}
+
+.roommate{
+    position: absolute;
+    left: 50px;
+}
+
+.bed{
+    position: absolute;
+}

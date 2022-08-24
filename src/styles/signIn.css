@@ -1,0 +1,213 @@
+a {
+  text-decoration: none;
+}
+*{
+    font-family: "Raleway";
+}
+
+.signin{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    justify-content: space-around;
+    background-color: #1c3b4e;
+}
+
+
+
+
+.signin .svg img{
+    height: 360px;
+}
+
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.greenbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 8px;
+  background: #1B8FB8;
+  box-shadow: inset 39.3px -39.3px 39.3px rgba(24, 24, 24, 0.01),
+    inset -39.3px 39.3px 39.3px rgba(255, 255, 255, 0.01);
+  border-radius: 3vh;
+  padding: 7px 10px 7px 10px;
+  margin-right: 5vw;
+  width: max-content;
+}
+
+.greenbox h1 {
+  display: flex;
+  width: 356px;
+  height: 9vh;
+  margin-left: 5vh;
+  top: 160px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5vh;
+  line-height: 10vh;
+  color: #BBF046;
+  font-family: "Barlow Condensed", sans-serif;
+  background: linear-gradient(180deg, #bbf147 0%, rgba(249, 72, 74, 0) 455.15%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.para1,
+.para2 {
+  margin-left: 3vh;
+  font-weight: 600;
+  font-size: 2.5vh;
+  line-height: 22px;
+  /* identical to box height */
+  color: #ffffff;
+}
+
+.col-75 {
+  width: 90%;
+  border-color: rgba(51, 220, 68, 0.1);
+  border-radius: 6px;
+  font-size: 2.7vh;
+  color: #647f3f;
+  align-self: center;
+  padding: 8px;
+}
+
+.checkmark {
+  margin-top: 20vh;
+  left: 0;
+  height: 25px;
+  width: 25px;
+}
+.responsive {
+  height: auto;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.enterpassword {
+  margin-top: 2vh;
+  margin-left: 3vh;
+  width: 2vh;
+  height: 3vh;
+  top: 493px;
+  border-radius: 6px;
+}
+
+.password {
+  display: flex;
+  width: auto;
+  height: 2px;
+  margin-top: -3vh;
+  margin-left: 6vh;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2vh;
+  line-height: 2vh;
+  /* identical to box height */
+  color: #efefef;
+
+  mix-blend-mode: normal;
+}
+
+.sign-in {
+  cursor: pointer;
+  background: linear-gradient(
+    180deg,
+    #bbf147 0%,
+    rgba(100, 100, 102, 0) 278.95%
+  );
+  border-radius: 2vh;
+  font-weight: 600;
+  font-size: 3.4vh;
+  color: #ffffff;
+  border: none;
+  padding: 7px 0 7px 0;
+  width: 90%;
+  align-self: center;
+}
+
+/* On mouse-over */
+.sign-in:hover {
+  background: #bae166;
+}
+
+.greenbox h3 {
+  font-style: normal;
+  font-size: 2.6vh;
+  line-height: 160%;
+  /* or 30px */
+  text-align: center;
+  color: #ffffff;
+}
+.box-2 {
+  border: 2px solid #bbf147;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  width: 90%;
+  align-self: center;
+  padding: 7px 0 7px 0;
+  text-align: center;
+  justify-content: center;
+}
+
+.box-2 h3 {
+  font-weight: 700;
+  color: rgb(240, 248, 255);
+}
+
+.box-2 img {
+  height: 5vh;
+}
+
+.dontacc {
+  font-weight: 700;
+  font-size: 2vh;
+  line-height: 7vh;
+  /* identical to box height, or 30px */
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */
+/* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */
+/* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */
+/* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */
+/* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */
+/* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */
+/* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */
+/* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */
+/* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */ /* SIGNUP PAGE */
+.lines {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.line1 {
+  height: 2px;
+  width: 70px;
+  border: 1px solid white;
+  background-color: white;
+}
+
+.line2 {
+  height: 2px;
+  width: 70px;
+  border: 1px solid white;
+  background-color: white;
+}
+.lines p {
+  mix-blend-mode: normal;
+  color: white;
+}

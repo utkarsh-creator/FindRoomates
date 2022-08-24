@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700");
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 10rem;
+  background-color: #1a8eb8;
+  font-family: "Raleway", sans-serif;
+  align-items: center;
+  height: 10vh;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  column-gap: 3rem;
+}
+
+ul > a {
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+
+main > .left > .text h1 {
+  font-weight: 700;
+  font-size: 50px;
+  font-family: "Barlow Condensed", sans-serif;
+  color: white;
+}
+
+main > .left > .text p {
+  font-size: 30px;
+  font-family: "Barlow Condensed", sans-serif;
+  color: white;
+  font-weight: 400;
+}
+
+main {
+  background-color: #1c3b4e;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.phoneMenu {
+  display: none;
+}
+main > .right > .box {
+  background-color: #1a8eb8;
+  height: 350px;
+  width: 350px;
+  display: grid;
+  place-content: center;
+  border-radius: 25%;
+}
+
+main > .right > .box img {
+  height: 300px;
+}
+
+.getStarted,
+.signUp {
+  background-color: #bbf046e5;
+  text-decoration: none;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  height: 45px;
+  width: 130px;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 45px;
+  transition: all 0.5s;
+}
+.getStarted:hover,
+.signUp:hover {
+  transform: scale(1.1);
+}
+main > .left > .btns {
+  display: flex;
+  margin: 20px 0;
+  gap: 2rem;
+}
+
+/* media query used for responsive */
+
+@media (max-width: 800px) {
+  main {
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+  }
+  nav {
+    justify-content: space-between;
+    column-gap: 10rem;
+  }
+  .left {
+    text-align: center;
+  }
+  main > .left > .btns {
+    gap: 2rem;
+    justify-content: center;
+  }
+  main > .right > .box {
+    height: 250px;
+    width: 250px;
+    display: grid;
+    place-content: center;
+    border-radius: 25%;
+    margin-top: 10vh;
+  }
+  main > .right > .box img {
+    height: 200px;
+  }
+
+  .nav1 {
+    display: none;
+  }
+
+  .phoneMenu {
+    display: block;
+    position: absolute;
+    top: 10vh;
+    background-color: #1a8eb8;
+    height: 8vh;
+    width: 100%;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 360px) {
+  main > .right > .box {
+    height: 200px;
+    width: 200px;
+  }
+  main > .right > .box img {
+    height: 150px;
+  }
+
+  .phoneMenu {
+    font-size: 10px;
+  }
+
+  main > .left > .text h1 {
+    font-size: 32px;
+  }
+
+  main > .left > .text p {
+    font-size: 24px;
+  }
+}
